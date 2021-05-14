@@ -11,6 +11,8 @@
 		AAB75417264DE51400B46F91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB75416264DE51400B46F91 /* ViewController.swift */; };
 		AAB75419264DE51500B46F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB75418264DE51500B46F91 /* Assets.xcassets */; };
 		AAB7541C264DE51500B46F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB7541A264DE51500B46F91 /* Main.storyboard */; };
+		AAB75426264E003900B46F91 /* AlertaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB75424264E003900B46F91 /* AlertaViewController.swift */; };
+		AAB75429264E047800B46F91 /* Alerta.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB75428264E047800B46F91 /* Alerta.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		AAB7541B264DE51500B46F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAB7541D264DE51500B46F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAB7541E264DE51500B46F91 /* Prueba_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Prueba_Mac.entitlements; sourceTree = "<group>"; };
+		AAB75424264E003900B46F91 /* AlertaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertaViewController.swift; sourceTree = "<group>"; };
+		AAB75428264E047800B46F91 /* Alerta.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alerta.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				AAB7541A264DE51500B46F91 /* Main.storyboard */,
 				AAB7541D264DE51500B46F91 /* Info.plist */,
 				AAB7541E264DE51500B46F91 /* Prueba_Mac.entitlements */,
+				AAB75424264E003900B46F91 /* AlertaViewController.swift */,
+				AAB75428264E047800B46F91 /* Alerta.storyboard */,
 			);
 			path = "Prueba Mac";
 			sourceTree = "<group>";
@@ -121,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB75419264DE51500B46F91 /* Assets.xcassets in Resources */,
+				AAB75429264E047800B46F91 /* Alerta.storyboard in Resources */,
 				AAB7541C264DE51500B46F91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,6 +141,7 @@
 			files = (
 				AAB75417264DE51400B46F91 /* ViewController.swift in Sources */,
 				AAB75415264DE51400B46F91 /* AppDelegate.swift in Sources */,
+				AAB75426264E003900B46F91 /* AlertaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
