@@ -54,7 +54,7 @@ extension ViewController: NSTableViewDelegate, NSTableViewDataSource {
             return false
         }
         controller.texto = self.arrNombres[row]
-        self.presentAsModalWindow(controller)
+        self.presentAsSheet(controller)
         return true
     }
     
